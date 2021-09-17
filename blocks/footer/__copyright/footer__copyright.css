@@ -1,0 +1,18 @@
+.footer__copyright {
+    margin: 0;
+    width: 186px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+
+.footer__copyright::before {
+    content: "\00a9 \0020 2020. \0020";
+}
+
+@media screen and (max-width: 320px) { 
+    .footer__copyright {
+        text-align: left;
+        margin-top: 48px;
+    }
+}

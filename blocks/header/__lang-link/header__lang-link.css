@@ -1,0 +1,22 @@
+.header__lang-link{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__lang-link:last-child{
+    margin-left: 18px;
+    margin-bottom: 2px;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link{
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+    }
+}
