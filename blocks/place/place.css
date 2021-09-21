@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: minmax(280px 1fr) 1fr;
     gap: 48px 40px;
-    grid-template-areas: 
+    grid-template-areas:
         "title website"
         "image paragraphs"
     ;
@@ -14,19 +14,19 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 925px) {
     .place {
         margin: 0 24px;
         gap: 48px 28px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width:  767px) {
     .place {
         margin: 0;
         gap: 32px;
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
             "title"
             "website"
             "image"

@@ -4,13 +4,13 @@
     font-size: 18px;
     line-height: 163%;
     text-align: initial;
-
-    vertical-align: top;
 }
+
 
 .place__paragraph:nth-child(2) {
-    margin-top: 26px;
+  margin-top: 26px;
 }
+
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 928px) {
     .place__paragraph {
         min-width: 352px;
         max-width: 352px;
@@ -29,9 +29,14 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px){
+  .place__paragraph{
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
     .place__paragraph {
-        margin: 0 16px;
         min-width: 288px;
         max-width: 288px;
     }

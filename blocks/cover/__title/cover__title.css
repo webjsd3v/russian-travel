@@ -8,7 +8,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .cover__title {
         max-width: 250px;
         font-size: 32px;
