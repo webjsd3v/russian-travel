@@ -10,9 +10,15 @@
     content: "\00a9 \0020 2020. \0020";
 }
 
-@media screen and (max-width: 625px) { 
+@media screen and (max-width: 625px) {
     .footer__copyright {
         text-align: left;
         margin-top: 48px;
     }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    line-height: 14px;
+  }
 }

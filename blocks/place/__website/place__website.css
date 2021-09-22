@@ -6,7 +6,7 @@
     /*padding: 0;*/
 }
 
-@media screen and (max-width: 825px){
+@media screen and (max-width: 767px){
     .place__website {
         margin: 0 16px;
     }

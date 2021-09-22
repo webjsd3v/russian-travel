@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 1200px) {
     .place__paragraph {
         min-width: 352px;
         max-width: 352px;
@@ -37,6 +37,7 @@
 
 @media screen and (max-width: 425px) {
     .place__paragraph {
+
         min-width: 288px;
         max-width: 288px;
     }

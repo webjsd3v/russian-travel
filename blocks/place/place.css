@@ -8,16 +8,17 @@
     ;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .place {
         gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 965px) {
     .place {
+      gap: 48px 28px;
         margin: 0 24px;
-        gap: 48px 28px;
+
     }
 }
 
